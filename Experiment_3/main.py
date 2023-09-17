@@ -36,7 +36,14 @@ def merge(left, right):
     return new_Array
 
 
-arr = [53, 123, 5, 2, 34, 1, 43]
+arr = []
+
+number_Elements = int(input("Enter Number of Elements -> "))
+
+for element in range(number_Elements):
+    new_Element = int(input(f"Enter {element+1} Element -> "))
+    arr.append(new_Element)
+
 print("Original Array -> ", arr)
 
 sorted_Array = merge_Sort(arr)
