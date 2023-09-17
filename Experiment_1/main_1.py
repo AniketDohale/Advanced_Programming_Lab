@@ -57,26 +57,33 @@ while True:
         print("Quitted..")
         break
 
-    num_Values = int(input("Number of Values -> "))
-    values = get_Inputs(num_Values)
-
     if choice == '1' or choice == 'Addition':
+        num_Values = int(input("Number of Values -> "))
+        values = get_Inputs(num_Values)
         result = addition(values)
         print("Addition ->", result)
 
     elif choice == '2' or choice == 'Average':
+        num_Values = int(input("Number of Values -> "))
+        values = get_Inputs(num_Values)
         result = mean(values)
         print("Average ->", result)
 
     elif choice == '3' or choice == 'Mean':
+        num_Values = int(input("Number of Values -> "))
+        values = get_Inputs(num_Values)
         result = mean(values)
         print("Mean ->", result)
 
     elif choice == '4' or choice == 'Median':
+        num_Values = int(input("Number of Values -> "))
+        values = get_Inputs(num_Values)
         result = median(values)
         print("Median ->", result)
 
     elif choice == '5' or choice == 'Mode':
+        num_Values = int(input("Number of Values -> "))
+        values = get_Inputs(num_Values)
         result = mode(values)
         print("Mode ->", result)
 
