@@ -1,0 +1,30 @@
+Write a python program with a function that obtains a byte value and a filename
+(as parameters or user input) and displays the number of times that byte appears in the
+file. Suppose now that the input file is extremely large. Multiple readers in a file is
+acceptable, so modify your solution to create multiple threads that count in different
+parts of the file such that each thread is responsible for a certain part of the file. Collate
+the data from each thread and provide the correct total. Use the timeit module to time
+Both the single-threaded and new multithreaded solutions and say something about the
+difference in performance, if any.A
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec dictum nisl. 
+Donec in cursus libero, vel sagittis libero. Vestibulum ligula lectus, euismod sed ullamcorper non, 
+venenatis a nisl. Suspendisse malesuada, arcu non rhoncus tempor, elit nisi rhoncus ante, sed mollis 
+purus purus ac ipsum. Phasellus sed tellus id lorem volutpat condimentum sed at purus. Nullam sed augue 
+elementum, ultrices massa a, molestie metus. Curabitur mattis hendrerit justo, vitae iaculis enim suscipit in. 
+Nam vel feugiat nibh, sed sollicitudin lorem. Sed sapien neque, ultricies et cursus quis, ullamcorper vitae tellus. 
+In ante neque, posuere eu dolor quis, laoreet finibus lorem.
+
+Sed at tortor id elit egestas facilisis. Suspendisse gravida arcu non erat bibendum suscipit. 
+Nullam iaculis tristique placerat. Vivamus vel libero tristique, tincidunt ipsum at, porttitor mauris. 
+Aenean lobortis, sem id laoreet sodales, lorem erat posuere orci, quis accumsan eros lacus in mauris. 
+Vivamus mollis lacinia tellus, ut volutpat dui gravida vel. Fusce molestie et magna eu sollicitudin. 
+Curabitur iaculis, nisi non gravida sodales, orci magna elementum massa, et sodales magna erat nec mauris. 
+Vivamus non placerat lectus, a ornare nunc. Sed quis sem vel metus faucibus commodo. Sed maximus ligula ut 
+odio tristique molestie.
+
+Vivamus at tortor vel dui consectetur gravida vel eget tortor. Aliquam a blandit ligula. Fusce tempus eu 
+sapien ut malesuada. Pellentesque facilisis velit sit amet turpis luctus, et imperdiet est tempor. Maecenas 
+at diam et enim finibus sagittis. In a mauris risus. Integer commodo leo ac dolor hendrerit, et accumsan odio 
+pharetra. Quisque sed augue sapien. Aliquam quis tellus sed lacus malesuada finibus. Suspendisse condimentum ut 
+sem at hendrerit. Pellentesque a velit non justo aliquet finibus.
